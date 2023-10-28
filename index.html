@@ -8,11 +8,28 @@
 </head>
 
 <body>
-  <form action="">
-    
- 
+  <h1>New Coder Survey</h1>
+  <form action="url" method="post">
+    <fieldset><legend>  <h2>Personal details</h2></legend>
+    <label for="name">Full Name:</label>
+     <input type="text" id="name" placeholder="julien barbier" required>
+    <label for="mail">Email:</label>
+     <input type="email" id="mail" placeholder="example@html.com" required>
+    <label for="birthday">Birthday:</label>
+     <input type="date" id="birthday" min="2005-01-01" required>
+     <label for="country">Country:</label>
+     <select name="Country" id="country">
+         <option value="Nigeria">Nigeria</option>
+         <option value="canada">canada</option>
+         <option value="united states">united states</option>
+         <option value="united kingdom">united kingdom</option>
+         <option value="Ghana">ghana</option>
+       </optgroup>
+     </select>
+    </fieldset>
+   <button type="submit"></button>
   </form>
-
+ 
 </body>
 
 </html>
