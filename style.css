@@ -1,0 +1,8 @@
+#name, #mail, #birthday, #country {
+  display: block;
+  width: 45%;
+}
+.myform {
+  font-size: 6px;
+  margin-left: 20%;
+}
