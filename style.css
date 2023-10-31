@@ -1,8 +1,18 @@
-#name, #mail, #birthday, #country {
-  display: block;
-  width: 45%;
+.heading {
+  text-align: center;
+  font-size: 28px;
+  border: solid;
+  border-color: red;
+  margin-top: 0%;
+  font-style: helvetica;
 }
+
+body {
+  background-color: skyblue;
+}
+
 .myform {
-  font-size: 6px;
-  margin-left: 20%;
+  background-color: yellowgreen;
+  border: 2px solid darkgrey;
 }
+
