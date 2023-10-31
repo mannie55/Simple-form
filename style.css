@@ -1,19 +1,25 @@
+body {
+  background-color: darksalmon;
+ 
+}
+
 .heading {
   text-align: center;
-  font-size: 28px;
-  border: solid;
-  border-color: red;
-  margin-top: 0%;
-  font-style: helvetica;
+  font-family: Arial, sans-serif
 }
 
-body {
-  background-color: skyblue;
+.font {
+  font-size: 10px;
+  
 }
 
-
-.myform {
-  background-color: yellowgreen;
-  border: 2px solid darkgrey;
+.input {
+  text-align: center;
+  display: block;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top:auto;
+  width: 50%;
+  border-style: solid;
+  border-radius: 10px;
 }
-
