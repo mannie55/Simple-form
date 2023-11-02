@@ -1,18 +1,16 @@
 body {
-  background-color: darksalmon;
- 
+  background-image: url(/images/abstract-1445481_1920.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
-
 .heading {
   text-align: center;
-  font-family: Arial, sans-serif
+  font-family: Arial, sans-serif;
 }
-
 .font {
   font-size: 10px;
-  
 }
-
 .input {
   text-align: center;
   display: block;
@@ -22,30 +20,38 @@ body {
   width: 50%;
   border-style: solid;
   border-radius: 10px;
+  background-color: chartreuse;
 }
-
 .text-input {
   position: relative;
   top: 15px;
   margin-left: 12%;
 }
-
 .stext-input {
-  margin-left: 12%;
+  display: block;
+  margin-left: 12px;
 }
-
+.yesno {
+  position: relative;
+  left: 35px;
+  bottom: 12px;
+}
 div {
-  margin: 0 auto;
-  background-color: yellowgreen;
-  border: 2px solid;
+  background-color: rgba(0, 0, 0, .1);
+  box-shadow: 0 0 9px rgba(75, 0, 130, 100%);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(75, 0, 130, 100%);
   border-radius: 20px;
+  margin: 3px;
 }
-
 .submit {
   margin-left: 25%;
-  margin-bottom: 10px;
-  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
   width: 50%;
   border: 2px solid darkgray;
   border-radius: 20px;
+}
+.myform {
+  color: lightgreen;
 }
