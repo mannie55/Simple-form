@@ -1,5 +1,5 @@
 body {
-  background-image: url(/images/abstract-1445481_1920.jpg);
+  background-image: url(/3312919.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -7,11 +7,16 @@ body {
 .heading {
   text-align: center;
   font-family: Arial, sans-serif;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 50%);
 }
 .font {
   font-size: 10px;
 }
 .input {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 80%);
   text-align: center;
   display: block;
   margin-left: 25%;
@@ -20,7 +25,6 @@ body {
   width: 50%;
   border-style: solid;
   border-radius: 10px;
-  background-color: chartreuse;
 }
 .text-input {
   position: relative;
@@ -29,18 +33,18 @@ body {
 }
 .stext-input {
   display: block;
-  margin-left: 12px;
+  margin-left: 12%;
 }
 .yesno {
   position: relative;
-  left: 35px;
+  left: 20%;
   bottom: 12px;
 }
 div {
   background-color: rgba(0, 0, 0, .1);
-  box-shadow: 0 0 9px rgba(75, 0, 130, 100%);
+  box-shadow: 0 0 9px rgba(0, 0, 0, 100%);
   backdrop-filter: blur(5px);
-  border: 1px solid rgba(75, 0, 130, 100%);
+  border: 1px solid rgba(75, 0, 130, 0%);
   border-radius: 20px;
   margin: 3px;
 }
@@ -51,7 +55,9 @@ div {
   width: 50%;
   border: 2px solid darkgray;
   border-radius: 20px;
+box-shadow: 0 0 4px rgba(0, 0, 0, 80%);
+  text-align: center;
 }
 .myform {
-  color: lightgreen;
+  color: black;
 }
