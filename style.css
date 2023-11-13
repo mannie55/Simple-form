@@ -6,11 +6,12 @@ body {
 }
 .heading {
   text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   border: 2px solid transparent;
   border-radius: 20px;
   color: white;
   background-color: rgba(0, 0, 0, 50%);
+  text-shadow: 1px 2px 3px #ababab;
 }
 .font {
   font-size: 10px;
@@ -19,12 +20,16 @@ body {
   box-shadow: 0 0 4px rgba(0, 0, 0, 80%);
   text-align: center;
   display: block;
-  margin-left: 25%;
+  margin-left: 27%;
   margin-right: 20%;
   margin-top:auto;
   width: 50%;
   border-style: solid;
   border-radius: 10px;
+}
+input:focus {
+  background-color: black;
+  color: white;
 }
 .text-input {
   position: relative;
